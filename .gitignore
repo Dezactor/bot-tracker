@@ -1,6 +1,5 @@
 # Rust
 rust/target/
-rust/*.exe
 *.pdb
 
 # Python
