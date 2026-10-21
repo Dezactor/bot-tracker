@@ -1,8 +1,8 @@
 # Bot Tracker (Rust)
 
-Секундомер-таймер с авто-повтором интервалов. Rust-версия [Python-приложения](gui_stopwatch.pyw) на eframe/egui.
+Секундомер-таймер с авто-повтором интервалов. Rust-версия [Python-приложения](gui_stopwatch.py) на eframe/egui.
 
-![screenshot]()
+![screenshot](screenshot.png)
 
 ## Возможности
 
@@ -61,7 +61,7 @@ rust/
 
 ## Оригинал
 
-Python-версия: [gui_stopwatch.pyw](gui_stopwatch.pyw) (tkinter).
+Python-версия: [gui_stopwatch.py](gui_stopwatch.py) (tkinter).
 
 ## Лицензия
 
