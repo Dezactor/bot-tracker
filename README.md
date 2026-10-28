@@ -53,10 +53,14 @@ bot-tracker.exe
 
 ```
 rust/
-├── src/main.rs      # всё приложение
-├── bot_icon.ico     # иконка
+├── src/main.rs        # всё приложение
+├── bot_icon.ico       # иконка
+├── bot_icon.rc        # ресурс: встраивает иконку в exe
+├── build.rs           # build-скрипт: подключает bot_icon.rc (embed-resource)
+├── build.cmd          # скрипт сборки для Windows/MinGW
 ├── Cargo.toml
-└── build.cmd        # скрипт сборки для Windows/MinGW
+├── Cargo.lock
+└── bot-tracker.exe    # собранная сборка (release)
 ```
 
 ## Оригинал
