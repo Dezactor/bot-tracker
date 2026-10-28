@@ -3,6 +3,9 @@ name = "bot-tracker"
 version = "0.1.0"
 edition = "2024"
 
+[build-dependencies]
+embed-resource = "2"
+
 [dependencies]
 eframe = { version = "0.37.0", default-features = false, features = ["glow", "default_fonts", "clipboard"] }
 image = "0.25.10"
